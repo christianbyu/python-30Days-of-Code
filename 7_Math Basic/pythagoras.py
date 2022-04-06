@@ -22,34 +22,25 @@ print("3. Nilai C")
 pilih = int(input("Masukan Pilihan (1/2/3) : "))
 
 if pilih == 1:
-    print(a) 
-elif pilih == 2:
-    print(b)
-elif pilih == 3:
-    print(c)
-else :
-    print("Masukan Error!!")
-
-def fungsi_a(b, c, a):
     b = int(input("Masukan nilai B : "))
     c = int(input("Masukan nilai C : "))
 
     a = math.sqrt(c ** 2 - b ** 2)
 
     print("Nilai A : ", a)
-
-def fungsi_b(a, c, b):
+elif pilih == 2:
     a = int(input("Masukan nilai A : "))
-    c = int(input("Masukan nilai B : "))
+    c = int(input("Masukan nilai C : "))
 
     b = math.sqrt(c ** 2 - a ** 2)
 
     print("Nilai B : ", b)
-
-def fungsi_c(a, b, c):
+elif pilih == 3:
     a = int(input("Masukan nilai A : "))
     b = int(input("Masukan nilai B : "))
 
     c = math.sqrt(a ** 2 + b ** 2)
 
-    print(" Nilai C : ", c)
+    print("Nilai C : ", c)
+else :
+    print("Masukan Error!!")
