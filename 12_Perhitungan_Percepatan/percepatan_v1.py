@@ -1,0 +1,1 @@
+Menu = int(input("Apa yang mau kamu hitung ? Pilih (1-3) : "))
