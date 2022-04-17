@@ -32,11 +32,3 @@ elif InputMenu == 3:
     print("Jarak Sebenarnya : ", Jsb ," Km")
 else:
     print("Error")
-
-list_array = [
-    ["Ayam", "Kebo", "Chicken"],
-    ["Aku", "Kamu", "Dia"],
-    ["Kopi", "Makan", "Minum"],
-    ]
-x = print("Kopi")
-x = print(list_array[2][1])
