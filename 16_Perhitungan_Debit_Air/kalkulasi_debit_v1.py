@@ -1,0 +1,1 @@
+Menu = int(input("Masukan Pilihan (1-4) : "))
