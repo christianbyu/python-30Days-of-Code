@@ -1,7 +1,3 @@
-from unicodedata import decimal
-
-
 biner = int(input("Masukan Biner : "))
-dec = decimal(biner)
-oct = oct(dec)
+oct = oct(biner)
 print("Konversi ke Octal : ", oct)
