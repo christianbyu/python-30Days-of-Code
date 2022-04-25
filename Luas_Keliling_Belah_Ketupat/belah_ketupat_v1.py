@@ -1,5 +1,5 @@
 print("+===================+")
-print("|  Layang - layang  |")
+print("|   Belah Ketupat   |")
 print("+===================+")
 print("| 1. Luas           |")
 print("| 2. Keliling       |")
@@ -13,11 +13,11 @@ if Menu == 1:
 
     Luas = (d1 * d2) / 2
 
-    print("Luas Layang - layang :", Luas)
+    print("Luas Belah Ketupat :", Luas)
 else:
     a = int(input("Masukan Sisi Pendek    : "))
     b = int(input("Masukan Sisi Panjang   : "))
 
     Keliling = (a * 2) + (b * 2)
 
-    print("Keliling Layang - layang :", Keliling)
+    print("Keliling Belah Ketupat :", Keliling)
